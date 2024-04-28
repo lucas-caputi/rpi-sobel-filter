@@ -16,7 +16,7 @@ int thread_exit_flag;
 /*-----------------------------
  * Function: main
  * 
- * Description: Applies grayscale filter to openCV matrix.
+ * Description: Applies sobel filter to video given by a command line argument.
  * 
  * return: an integer representing success or error.
  *         -2 = usage error
